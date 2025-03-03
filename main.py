@@ -17,7 +17,7 @@ stream = client.chat.completions.create(
     messages=[
         {
             "role": "user", 
-            "content": "Tell me coupon deals from local fast food restaurants"
+            "content": "Tell me coupon deals from local fast food restaurants and make sure to list the coupon codes and their expiration dates"
         }
                ],
     stream = True
